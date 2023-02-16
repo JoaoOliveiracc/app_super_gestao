@@ -8,6 +8,6 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return 'Olá, seja bem vindo!';
+        return view('site.index');
     }
 }
