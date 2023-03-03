@@ -8,6 +8,7 @@ class ContatoController extends Controller
 {
     public function contato()
     {
+        dd($_POST); 
         return view('site.contato');
     }
 }
